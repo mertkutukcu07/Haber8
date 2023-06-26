@@ -61,11 +61,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
+    paddingHorizontal: moderateScale(15),
   },
   headerC: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    paddingHorizontal: moderateScale(15),
+
     marginTop: moderateVerticalScale(25),
   },
   headerTxt: {
@@ -83,7 +84,6 @@ const styles = StyleSheet.create({
     width: moderateScale(120),
   },
   newsc: {
-    paddingHorizontal: moderateScale(15),
     width: moderateScale(160),
     marginTop: moderateVerticalScale(20),
   },
