@@ -143,7 +143,7 @@ const PhotoGalery = ({navigation}) => {
                     position: 'absolute',
                   }}>
                   <Pagination
-                    dotsLength={BannerData.length}
+                    dotsLength={VideoGaleriData.length}
                     containerStyle={styles.dotCont}
                     dotStyle={styles.dot}
                     activeDotIndex={currentIndex}
